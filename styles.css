@@ -1,0 +1,108 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url('Imagenes/circulo.svg');
+    background-color:#19a1ad;
+    background-size: 60%;
+}
+
+
+
+.main-container{ /*esta es la estructura de la pagina, la cual contiene toda la informacion*/
+    display: flex; /*permite que el contenido salga de forma horizontal*/
+    justify-content: center; /*Se procede con la alineacion del contenido al centro*/
+    padding: 5%; /*Se aplica una distancia al contenido en forma vertical*/
+    gap:20px; /*Se aplica una distancia al contenido en forma radial*/
+    border-radius: 15px;
+}
+.banner-container{ /*Este es el contenedor del baner izquierdo de la pagina*/
+    background-color: #fff;
+    display: flex; /*permite que el contenido salga de forma horizontal*/
+    flex-direction: column; /*Se alinean los elementos en forma vertical*/
+    width: 50%; /*se aplica un tamaño vertical del 50% de la pagina*/
+    border-radius: 15px; /*se pule el borde al header, se aplica desde arriba, en sentido a las manecillas del reloj*/
+    gap: 20px; /*Se aplica una distancia al contenido en forma radial*/
+    
+}
+
+.cabecera{ /*este es el apartado de titulo del banner izquierdo*/
+    display: center; /*permite que el contenido salga de forma horizontal*/
+    align-items: center; /*Se alinean los items en el centro de (de forma vertical)*/ 
+    justify-content: center; /*Se procede con la alineacion del contenido al centro*/
+}
+.cabecera img{ /*esta es la imagen del titulo en el banner izquierdo*/
+    width: 100%; /*se modifica el tamaño horizontal de la imagen*/
+    height: 100%; /*se modifica el tamaño vertical de la imagen*/
+    border-radius: 15px 15px 0 0; /*se pule el borde al header, se aplica desde arriba, en sentido a las manecillas del reloj*/
+}
+.foto{ /*esta es la imagen principal del banner izquierdo*/
+    margin-top: -15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+    border-radius: 100%; /*se pule el borde al header, se aplica desde arriba, en sentido a las manecillas del reloj*/
+}
+
+.Info-basica{
+    flex-direction: column; /*Se alinean los elementos en forma vertical*/
+}
+.Info-basica p{
+    color:gray;
+    font-weight: 600; /*Se plica negrita al texto, esto sirve para la intensidad del color*/
+    font-size: 25px; /*Se cambia el tamaño del texto*/
+    text-align: center;
+}
+.Info-basica h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px; /*Se cambia el tamaño del texto*/
+    text-align: center;
+}
+
+
+.interacciones{ /*este es el separador del submenu del banner derecho*/
+    background-color: #f6e1ff; /*se cambia el color de fondo*/
+    display: flex; /*permite que el contenido salga de forma horizontal*/
+    justify-content: space-around; /*se separa el contenido con la misma distancia en el contenedor*/
+    height: 20%; /*se modifica el tamaño vertical del contenedor*/
+    align-items: center; /*Se alinean los items en el centro de (de forma vertical)*/ 
+    border-radius: 0 0 15px 15px;
+}
+
+.interac{ /*este es el contenedor de los cuadros de texto del banner derecho*/
+    display: flex; /*permite que el contenido salga de forma horizontal*/
+    flex-direction: column; /*Se alinean los elementos en forma vertical*/
+    align-items: center; /*Se alinean los items en el centro de (de forma vertical)*/ 
+}
+
+.cantidad{ /*este es el contenedor de los titulos del banner derecho*/
+    color: rgb(0, 0, 0);
+    font-size: 28px; /*Se cambia el tamaño del texto*/
+    text-align: center;
+    font-weight: 900; /*Se plica negrita al texto, esto sirve para la intensidad del color*/    
+}
+
+.info{ /*este es el contenedor de la informacion dek banner derecho*/
+    font-size: 25px; /*Se cambia el tamaño del texto*/
+    color:gray;
+    flex-direction: column; /*Se alinean los elementos en forma vertical*/
+}
+
+footer p{
+    text-align: center;
+}
+.texto1{
+    color: aqua;
+}
+
+.texto2{
+    color:#fff
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    ;
+  }
